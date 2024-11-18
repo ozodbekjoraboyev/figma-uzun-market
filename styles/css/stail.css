@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 1.5s ease;
+  padding: px;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: rgb(246, 242, 242);
+  height: 50px;
+  padding: 10px;
+}
+.container nav .locatsiya {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.container nav .buyurtma {
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+}
+.container nav .savol_javob {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  opacity: 0.7;
+}
+.container nav .bayrog {
+  display: flex;
+  align-items: center;
+}
+.container .nav_inpuy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+.container .nav_inpuy .ikon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: -60px;
+}
+.container .caruselll {
+  height: 600px;
+}
+.container .carusel_1 {
+  z-index: -999999;
+}
+.container .ilovalar {
+  display: flex;
+  font-size: 16px;
+  margin-top: 40px;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.container .ilovalar .ilova {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .ilovalar .sozlar {
+  gap: 40px;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-around;
+}
+.container .ilovalar .sozlar .saitbar {
+  z-index: 99999;
+}
+.container .card {
+  display: flex;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+  align-items: center;
+}
+.container .cardlar {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 40px;
+  margin-left: 35px;
+  align-items: center;
+  margin-top: 40px;
+}
+.container .cardlar .card_img {
+  z-index: -999;
+  position: relative;
+  width: 300px;
+}
+.container .cardlar .card_img .card_sertsa {
+  position: absolute;
+  z-index: 9999;
+  left: 200px;
+  top: 10px;
+}
+.container .cardlar .card_img .button_ecspensiv {
+  background-color: rgb(0, 21, 255);
+  padding: 5px;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  margin-top: -35px;
+  z-index: 999;
+  position: absolute;
+}
+.container .cardlar .card_texst {
+  display: flex;
+  max-width: 270px;
+}
+.container .cardlar .card_ziyozdchka {
+  display: flex;
+  opacity: 0.7;
+}
+.container .cardlar .card_suma {
+  background-color: yellow;
+  padding: 5px;
+  margin-top: 5px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: start;
+}
+.container .cardlar .card_aksiya {
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 1px;
+  text-decoration: line-through;
+}
+.container .cardlar .card_chagirma {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2px;
+}
+.container .cardlar .card_ikon {
+  display: flex;
+  gap: 60px;
+}
+.container .mahsulot {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container .qoshimcha {
+  background-color: #F2F4F7;
+  text-align: center;
+  width: 740px;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=stail.css.map */
